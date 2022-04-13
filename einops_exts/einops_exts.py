@@ -1,4 +1,5 @@
 import re
+from torch import nn
 from functools import wraps, partial
 
 from einops import rearrange, reduce, repeat
