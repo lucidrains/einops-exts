@@ -1,4 +1,5 @@
 from torch import nn
+from einops import rearrange
 
 # for rearranging to and from a pattern
 
