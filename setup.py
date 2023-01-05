@@ -3,9 +3,10 @@ from setuptools import setup, find_packages
 setup(
   name = 'einops-exts',
   packages = find_packages(exclude=[]),
-  version = '0.0.3',
+  version = '0.0.4',
   license='MIT',
   description = 'Einops Extensions',
+  long_description_content_type = 'text/markdown',
   author = 'Phil Wang',
   author_email = 'lucidrains@gmail.com',
   url = 'https://github.com/lucidrains/einops-exts',
